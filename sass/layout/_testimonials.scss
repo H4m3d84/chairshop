@@ -1,0 +1,33 @@
+.testimonials {
+  display: flex;
+  gap: 6.4rem;
+  background-color: $color-primary;
+  padding: 3.2rem;
+  border-radius: 1.2rem;
+  color: $gray-light;
+  align-items: center;
+
+  &__imagebox {
+    flex: 0 1 90%;
+  }
+  &__image {
+    width: 100%;
+    border-radius: 1.2rem;
+  }
+
+  &__header {
+    font-size: 2.4rem;
+  }
+
+  &__textbox {
+  }
+
+  &__text {
+    font-style: italic;
+  }
+
+  &__author {
+    font-size: 1.6rem;
+    color: #cee5de;
+  }
+}
