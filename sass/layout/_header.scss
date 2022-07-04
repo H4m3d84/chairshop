@@ -1,0 +1,19 @@
+.header {
+  margin-top: 4.8rem;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+
+  &__textbox {
+    width: 50%;
+  }
+
+  &__imagebox {
+    width: 50%;
+  }
+
+  &__image {
+    width: 100%;
+    border-radius: 1.2rem;
+  }
+}

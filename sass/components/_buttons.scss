@@ -1,0 +1,30 @@
+.btn {
+  display: inline-block;
+
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: $gray-light;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background-color: $color-primary;
+    padding: 1.6rem 3.2rem;
+    text-transform: uppercase;
+    border-radius: 100rem;
+    transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+  }
+
+  &:hover {
+    background-color: $color-primary-tint;
+    transform: translateY(-3px);
+    box-shadow: 0 0.8rem 1.6rem rgba(#000, 0.3);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.4rem 0.8rem rgba(#000, 0.4);
+  }
+
+  &__green {
+  }
+}
