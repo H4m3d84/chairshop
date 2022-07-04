@@ -1,0 +1,13 @@
+.features {
+  &__items {
+    display: flex;
+    gap: 8rem;
+  }
+  &__item {
+    flex: 0 1 33.33%;
+  }
+  &__icon {
+    font-size: 3.2rem;
+    color: $color-primary;
+  }
+}

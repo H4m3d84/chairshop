@@ -19,6 +19,19 @@ body {
   letter-spacing: -1px;
 }
 
+.heading-secondary {
+  font-size: 3.6rem;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+
 .paragraph {
   font-size: 1.8rem;
   line-height: 1.6;
@@ -84,11 +97,23 @@ body {
   border-radius: 1.2rem;
 }
 
+.features__items {
+  display: flex;
+  gap: 8rem;
+}
+.features__item {
+  flex: 0 1 33.33%;
+}
+.features__icon {
+  font-size: 3.2rem;
+  color: #087f5b;
+}
+
 .container {
   max-width: 90rem;
   margin: 0 auto;
   display: grid;
-  row-gap: 9.6rem;
+  row-gap: 12.8rem;
 }
 
 .testimonials {
