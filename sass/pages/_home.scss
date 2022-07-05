@@ -5,9 +5,10 @@
   row-gap: 12.8rem;
 }
 
-.products {
-  background-color: lightseagreen;
-}
 .footer {
-  background-color: lightgoldenrodyellow;
+  &__text {
+    font-size: 1.4rem;
+    color: $gray-dark-tint;
+    margin-bottom: 6.4rem;
+  }
 }

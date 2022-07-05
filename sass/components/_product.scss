@@ -1,0 +1,48 @@
+.products {
+  &__items {
+    display: flex;
+    gap: 6.4rem;
+  }
+  &__item {
+    flex: 0 1 33.33%;
+    box-shadow: 0 1.2rem 2.4rem rgba(#000, 0.1);
+    border-radius: 1.2rem;
+    &__image {
+      width: 100%;
+      border-top-left-radius: 1.2rem;
+      border-top-right-radius: 1.2rem;
+    }
+
+    &__textbox {
+      padding: 2.4rem;
+    }
+
+    &__list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    &__li {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    &__logo {
+      font-size: 2.4rem;
+      color: $color-primary;
+    }
+
+    &__text {
+      font-size: 1.6rem;
+    }
+
+    &__price {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

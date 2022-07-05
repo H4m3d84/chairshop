@@ -11,6 +11,7 @@ html {
 body {
   font-family: "Inter", sans-serif;
   color: #343a40;
+  border-bottom: 10px solid #087f5b;
 }
 
 .heading-primary {
@@ -65,8 +66,6 @@ body {
   color: #e9ecef;
   font-size: 1.6rem;
   font-weight: 500;
-  background-color: #087f5b;
-  padding: 1.6rem 3.2rem;
   text-transform: uppercase;
   border-radius: 100rem;
   transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
@@ -80,6 +79,55 @@ body {
   transform: translateY(-1px);
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.4);
 }
+.btn--green {
+  background-color: #087f5b;
+  padding: 1.6rem 3.2rem;
+}
+.btn--product {
+  padding: 0.4rem 0.8rem;
+}
+
+.products__items {
+  display: flex;
+  gap: 6.4rem;
+}
+.products__item {
+  flex: 0 1 33.33%;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.2rem;
+}
+.products__item__image {
+  width: 100%;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+}
+.products__item__textbox {
+  padding: 2.4rem;
+}
+.products__item__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.products__item__li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.products__item__logo {
+  font-size: 2.4rem;
+  color: #087f5b;
+}
+.products__item__text {
+  font-size: 1.6rem;
+}
+.products__item__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header {
   margin-top: 4.8rem;
   display: flex;
@@ -143,12 +191,10 @@ body {
   row-gap: 12.8rem;
 }
 
-.products {
-  background-color: lightseagreen;
-}
-
-.footer {
-  background-color: lightgoldenrodyellow;
+.footer__text {
+  font-size: 1.4rem;
+  color: #495057;
+  margin-bottom: 6.4rem;
 }
 
 /*# sourceMappingURL=output.css.map */

@@ -7,8 +7,7 @@
     color: $gray-light;
     font-size: 1.6rem;
     font-weight: 500;
-    background-color: $color-primary;
-    padding: 1.6rem 3.2rem;
+
     text-transform: uppercase;
     border-radius: 100rem;
     transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
@@ -25,6 +24,12 @@
     box-shadow: 0 0.4rem 0.8rem rgba(#000, 0.4);
   }
 
-  &__green {
+  &--green {
+    background-color: $color-primary;
+    padding: 1.6rem 3.2rem;
+  }
+
+  &--product {
+    padding: 0.4rem 0.8rem;
   }
 }
